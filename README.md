@@ -1,42 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3-tailwind-gsap-loco
+This is a starter template for Nuxt 3 projects with Tailwind, Gsap scrollTrigger plugin and Locomotive scroll.
+For now it's really simple and I might miss some functionalities.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+# Getting started
+clone the repository
+```
+git clone https://github.com/teo-goulois/Nuxt3-tailwind-gsap-loco.git
 ```
 
-## Development Server
+Make sure that you have Node.js installed on your project. Run the following command to install all dependencies:
 
-Start the development server on http://localhost:3000
+```
+npm install
+```
+Run this command to compile and bundle the source code:
 
-```bash
+```
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
+Run this command to build the project:
+```
 npm run build
 ```
 
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Typescript
+I wanted to use Typescript for this so it's easy to start with. but there is some place where I had to use `// @ts-ignore`, i will try to erase them all, with the time.
